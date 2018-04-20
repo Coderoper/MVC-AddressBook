@@ -63,10 +63,10 @@ namespace AddressBook.Models
     {
       return _contacts[searchId-1];
     }
-    // public static void ClearAll()
-    // {
-    //   _id=1;
-    //   _contacts.Clear();
-    // }
+    public static void ClearAll()
+    {
+      // _id=1;
+      _contacts.Clear();
+    }
   }
 }

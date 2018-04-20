@@ -39,12 +39,12 @@ namespace AddressBook.Controllers
             Contact contact = Contact.Find(id);
             return View(contact);
         }
-        // [HttpPost("/contacts/clearall")]
-        // public ActionResult Cleared()
-        // {
-        //   Contact.ClearAll();
-        //   return RedirectToRoute("Index");
-        //
-        // }
+        [HttpPost("/contacts/clearall")]
+        public ActionResult ClearAll()
+        {
+          Contact.ClearAll();
+          return View();
+
+        }
     }
 }

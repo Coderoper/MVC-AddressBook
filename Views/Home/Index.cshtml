@@ -7,5 +7,11 @@
     <li><a href='/contacts/@contact.GetId()'>@contact.GetName()</a></li>
   }
   </ol>
-  <button><a href="/contacts/new">Add New Contact</a></button>
+  @* <form action="/contacts/new" method="post">
+    <button type="submit" name="button">Add New Contact</button>
+  </form> *@
+    <button><a href="/contacts/new">Add New Contact</a></button>
   @* <button><a href='/contacts/clearall'> Clear All Contacts </a></button> *@
+  <form action="/contacts/clearall" method="post">
+    <button type="submit" name="button">Clear All Contacts</buttons>
+  </form>
