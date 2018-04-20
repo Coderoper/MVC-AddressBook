@@ -1,0 +1,9 @@
+/Users/austinroberts/Desktop/MVCAddressBook/bin/Debug/netcoreapp1.1/AddressBook.deps.json
+/Users/austinroberts/Desktop/MVCAddressBook/bin/Debug/netcoreapp1.1/AddressBook.runtimeconfig.json
+/Users/austinroberts/Desktop/MVCAddressBook/bin/Debug/netcoreapp1.1/AddressBook.runtimeconfig.dev.json
+/Users/austinroberts/Desktop/MVCAddressBook/obj/Debug/netcoreapp1.1/AddressBook.csproj.CoreCompileInputs.cache
+/Users/austinroberts/Desktop/MVCAddressBook/obj/Debug/netcoreapp1.1/AddressBook.AssemblyInfo.cs
+/Users/austinroberts/Desktop/MVCAddressBook/bin/Debug/netcoreapp1.1/AddressBook.dll
+/Users/austinroberts/Desktop/MVCAddressBook/bin/Debug/netcoreapp1.1/AddressBook.pdb
+/Users/austinroberts/Desktop/MVCAddressBook/obj/Debug/netcoreapp1.1/AddressBook.dll
+/Users/austinroberts/Desktop/MVCAddressBook/obj/Debug/netcoreapp1.1/AddressBook.pdb

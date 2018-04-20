@@ -1,0 +1,11 @@
+<h1>My Contacats</h1>
+<ol>
+  @* for each contact created, add a list item *@
+  @foreach(var contact in Model)
+  {
+    @*adds a link to each contact createdreferencing route contacs/contacts id*@
+    <li><a href='/contacts/@contact.GetId()'>@contact.GetName()</a></li>
+  }
+  </ol>
+  <button><a href="/contacts/new">Add New Contact</a></button>
+  @* <button><a href='/contacts/clearall'> Clear All Contacts </a></button> *@
